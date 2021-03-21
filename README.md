@@ -1,2 +1,2 @@
-# Blckv1
+# Yazılım Mühendisliği Proje
 .
