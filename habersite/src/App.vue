@@ -6,7 +6,7 @@
       <b-navbar-nav class="ml-auto">
         <b-nav-form>
           <b-form-input
-            size="sm"
+            size="md"
             class="shadow-sm mr-sm-0"
             placeholder="Search"
           ></b-form-input>
