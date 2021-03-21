@@ -1,0 +1,72 @@
+/*ORTAKISIM CSS*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.resimler{
+  flex: 25%;
+  padding: 0 4px;
+  margin-top: 20px;
+}
+.resimler img{
+  background-color: white;
+  position: relative;
+  transition: all 0.8s;
+  width: 250px;
+  border: 0px solid #150734;
+  margin: 3px;
+  padding: 6px;
+}
+.resimler a{
+  position: relative;
+}
+.resimler img:hover{
+  transform: scale(1.07);
+}
+.resimler span{
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  text-shadow: 0px 0.5px rgb(173, 173, 173);
+  width: 90%;
+  height: 45px;
+  top: 180%;
+  right: 5%;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1552px) {
+  .resimler img{
+  width: 240px;
+}
+}
+@media only screen and (max-width: 1492px) {
+  .resimler img{
+  width: 230px;
+}
+}
+@media only screen and (max-width: 1432px) {
+  .resimler img{
+  width: 220px;
+}
+}
+@media only screen and (max-width: 1355px) {
+  .resimler img{
+  width: 200px;
+}
+}
+@media only screen and (max-width: 1235px) {
+  .resimler img{
+  width: 180px;
+}
+}
+@media only screen and (max-width: 1115px) {
+  .resimler img{
+  width: 160px;
+}
+}
+@media only screen and (max-width: 1113px) {
+  .resimler img{
+  width: 150px;
+}
+}

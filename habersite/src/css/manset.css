@@ -1,0 +1,62 @@
+/*MANŞET*/
+.manset{
+  position: relative;
+  padding-left: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+#carousel-1{
+  width: 70%;
+}
+.minimanset{
+  /*padding-top: 69px;*/
+  width: 30%;
+}
+.minimanset img{
+  position: relative;
+  width: 90%;
+}
+.minimanset a{
+  position: relative;
+}
+.minimanset span{
+  display: none;
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  text-shadow: 0px 0.5px rgb(173, 173, 173);
+  overflow: hidden;
+}
+.minimanset img:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 8px 16px 0 rgba(0, 0, 0, 0.19);
+}
+.img-fluid{
+  background-color: rgb(226, 226, 226);
+}
+.carousel-caption{
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.678);
+}
+.carousel-caption p{
+  padding-bottom: 8px;
+}
+.carousel-control-prev{
+  margin-left: 8px;
+  width: 10%;
+}
+.carousel-control-prev-icon {
+  background-color: rgba(0, 0, 0, 0.678);
+  width: 100%;
+  height: 50px;
+}
+.carousel-control-next{
+  width: 10%;
+}
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.678);
+  width: 100%;
+  height: 50px;
+}

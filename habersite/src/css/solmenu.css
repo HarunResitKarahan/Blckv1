@@ -1,0 +1,62 @@
+/*SOLMENU CSS*/
+.aramatusu{
+  display: inline;
+  width: auto;
+  border: 1px solid white;
+}
+
+.p-0 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#menu {
+  background-color: white;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  margin-top: 2px;
+  border-style: solid;
+  text-decoration: none;
+  border-width: 0.5px;
+  border-color: white;
+  color: #16A085;
+  text-align: end;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+.katagoridownmenu {
+  padding: 5px;
+  width: 150px;
+}
+#menu ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 2;
+  width: 215%;
+  padding: 8px;
+  margin-top: 30px;
+  border: 1px solid white;
+  list-style: none;
+  border-radius: 8px;
+  display: none;
+}
+#menu li {
+  padding: 0;
+  margin: 5px;
+  z-index: 1;
+}
+#menu img {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.fa {
+  margin-left: 8px;
+}
